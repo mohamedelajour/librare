@@ -1,0 +1,112 @@
+body{
+    height:  7000;
+    background-image: url(../image/205972.jpg);
+    background-size: cover ;
+   background-attachment: fixed;
+
+}
+
+
+.heder{
+
+    height: 400px;
+    /* background-color: #d4cdcdcc; */
+    position: fixed;
+    z-index: 10;
+    margin-top:150px;
+    margin-left: 91%;
+    }
+.d_icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(74, 156, 250, 0.985);
+margin-top: 10px;
+border-radius: 5px ;
+opacity: 0.5;
+}
+.d_icon:hover{
+    opacity: 10;
+
+
+}
+.end_i{
+font-size: 50px;
+color: rgb(255, 255, 255);
+display: block;
+margin: 7px;
+}
+
+
+.div_img{
+width: 60%;
+height: 150px;
+background-color: hsl(180, 100%, 50%,0.5);
+/* background-color: aqua; */
+/* opacity: 0.5; */
+
+margin-top: -200px;
+margin-left: 20%;
+position: absolute;
+z-index: 5;}
+.h_img{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;}
+.p_img{
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: -5px;}
+.div_img button{
+    display: block;
+    margin:auto ;
+}
+   
+  #copy:hover{
+    opacity: 0.7;
+
+
+}
+
+.card::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom:  0;
+    right: 0;
+    
+    background-color: rgba(74, 156, 250, 0.985);
+    opacity: 0;
+    }
+    .card:hover::after{
+        width: 100%;
+        height: 100%;
+        transition: 0.5s;
+        opacity: 0.5;
+    
+     }
+    .card::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        top: 0;
+        left:  0;
+        background-color: rgba(74, 156, 250, 0.985);
+        opacity: 0;
+        }
+        .card:hover::after{
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+            opacity: 0.5;
+        
+        }
+       .roundded{
+        display: block;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 10px;
+    position: absolute;
+    }
